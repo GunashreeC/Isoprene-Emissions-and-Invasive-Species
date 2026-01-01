@@ -59,12 +59,13 @@ Relationship between isoprene emissions and invasive species counts with fitted 
 1. Install required R packages:  
 ```r
 install.packages(c("tidyverse", "sf", "raster", "sp", "MASS", "ggplot2", "viridis"))
+```
 2. Place MEGAN NetCDF files and AFPE data in your working directory.
 
 3. Run the analysis:
 ```r
 source("isoprene_invasive_analysis.R")
-
+```
 ---
 ## Notes
 Data covers the year 2000.
